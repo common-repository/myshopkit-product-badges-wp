@@ -1,0 +1,305 @@
+.grid-product__on-sale,
+.grid-product__sold-out,
+body [class*="badge"],
+body [class*="Badge"] {
+    visibility: hidden !important;
+}
+body .no-js-hidden .price,
+body .no-label,
+body .product__image-wrapper.sc-badge-main,
+body [class*="instagram"],
+body [class*="Instagram"],
+body [class*="nav__label"],
+body [class*="stage"],
+body [class*="Stage"] {
+    visibility: initial !important;
+}
+body #__MY_SHOP_KIT_BADGE__,
+body .image-label-wrap,
+body .label-tab,
+body .label-text,
+body .price-label--sale,
+body .quick-product__label {
+    visibility: visible !important;
+}
+body #__MY_SHOP_KIT_BADGE__ {
+    bottom: auto !important;
+    left: auto !important;
+    right: auto !important;
+    top: auto !important;
+}
+body #__MY_SHOP_KIT_BADGE__.__MY_SHOP_KIT_BADGE_CONTAINER__ {
+    align-items: center !important;
+    display: flex !important;
+    height: auto !important;
+    justify-content: center !important;
+    min-width: 100px !important;
+    position: absolute !important;
+    z-index: 2 !important;
+}
+body #__MY_SHOP_KIT_BADGE__ .BADGE_WRAPPER {
+    width: 100% !important;
+}
+body #__MY_SHOP_KIT_BADGE__ svg {
+    background-color: transparent !important;
+    color: initial !important;
+    height: auto !important;
+    margin: 0 !important;
+    max-height: none !important;
+    max-width: none !important;
+    padding: 0 !important;
+    position: static !important;
+    width: 100% !important;
+}
+#__MY_SHOP_KIT_BADGE__.topLeft {
+    left: 2.5% !important;
+    top: 2.5% !important;
+}
+#__MY_SHOP_KIT_BADGE__.topRight {
+    right: 2.5% !important;
+    top: 2.5% !important;
+}
+#__MY_SHOP_KIT_BADGE__.bottomLeft {
+    bottom: 2.5% !important;
+    left: 2.5% !important;
+}
+#__MY_SHOP_KIT_BADGE__.bottomRight {
+    bottom: 2.5% !important;
+    right: 2.5% !important;
+}
+#__MY_SHOP_KIT_BADGE__.center {
+    left: 50% !important;
+    top: 50% !important;
+    -webkit-transform: translate(-50%, -50%) !important;
+    transform: translate(-50%, -50%) !important;
+}
+#__MY_SHOP_KIT_BADGE__ .bounce {
+    -webkit-animation: bounce;
+    animation: bounce;
+    -webkit-animation-duration: 0.8s;
+    animation-duration: 0.8s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+}
+@-webkit-keyframes bounce {
+    0%,
+    to {
+        -webkit-transform: translateY(-5%);
+        transform: translateY(-5%);
+    }
+    50% {
+        -webkit-transform: translateY(5%);
+        transform: translateY(5%);
+    }
+}
+@keyframes bounce {
+    0%,
+    to {
+        -webkit-transform: translateY(-5%);
+        transform: translateY(-5%);
+    }
+    50% {
+        -webkit-transform: translateY(5%);
+        transform: translateY(5%);
+    }
+}
+#__MY_SHOP_KIT_BADGE__ .flash {
+    -webkit-animation: flash;
+    animation: flash;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+@-webkit-keyframes flash {
+    0%,
+    50%,
+    to {
+        opacity: 1;
+    }
+    25%,
+    75% {
+        opacity: 0;
+    }
+}
+@keyframes flash {
+    0%,
+    50%,
+    to {
+        opacity: 1;
+    }
+    25%,
+    75% {
+        opacity: 0;
+    }
+}
+body#medical-furniture-for-hospitals-clinics-and-care-homes.magic-badges-mis-supply div#__MY_SHOP_KIT_BADGE__.__MY_SHOP_KIT_BADGE_CONTAINER__.topRight div.BADGE_WRAPPER.flash {
+    -webkit-animation: flash;
+    animation: flash;
+    -webkit-animation-duration: 1.5s !important;
+    animation-duration: 1.5s !important;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+#__MY_SHOP_KIT_BADGE__ .zoomIn {
+    -webkit-animation: zoomIn 1.2s infinite;
+    animation: zoomIn 1.2s infinite;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+@-webkit-keyframes zoomIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(0.3, 0.3, 0.3);
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+    50% {
+        opacity: 1;
+    }
+}
+@keyframes zoomIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(0.3, 0.3, 0.3);
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+    50% {
+        opacity: 1;
+    }
+}
+#__MY_SHOP_KIT_BADGE__ .tada {
+    -webkit-animation: tada;
+    animation: tada;
+    -webkit-animation-duration: 0.8s;
+    animation-duration: 0.8s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+@-webkit-keyframes tada {
+    0% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+    }
+    10%,
+    20% {
+        -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate(-3deg);
+        transform: scale3d(0.9, 0.9, 0.9) rotate(-3deg);
+    }
+    30%,
+    50%,
+    70%,
+    90% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate(3deg);
+        transform: scale3d(1.1, 1.1, 1.1) rotate(3deg);
+    }
+    40%,
+    60%,
+    80% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate(-3deg);
+        transform: scale3d(1.1, 1.1, 1.1) rotate(-3deg);
+    }
+    to {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+    }
+}
+@keyframes tada {
+    0% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+    }
+    10%,
+    20% {
+        -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate(-3deg);
+        transform: scale3d(0.9, 0.9, 0.9) rotate(-3deg);
+    }
+    30%,
+    50%,
+    70%,
+    90% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate(3deg);
+        transform: scale3d(1.1, 1.1, 1.1) rotate(3deg);
+    }
+    40%,
+    60%,
+    80% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate(-3deg);
+        transform: scale3d(1.1, 1.1, 1.1) rotate(-3deg);
+    }
+    to {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+    }
+}
+#__MY_SHOP_KIT_BADGE__ .shake {
+    -webkit-animation: shake;
+    animation: shake;
+    -webkit-animation-duration: 1.6s;
+    animation-duration: 1.6s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+@-webkit-keyframes shake {
+    0%,
+    80%,
+    to {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+    }
+    10%,
+    30%,
+    50%,
+    70% {
+        -webkit-transform: translate3d(-10px, 0, 0);
+        transform: translate3d(-10px, 0, 0);
+    }
+    20%,
+    40%,
+    60% {
+        -webkit-transform: translate3d(10px, 0, 0);
+        transform: translate3d(10px, 0, 0);
+    }
+}
+@keyframes shake {
+    0%,
+    80%,
+    to {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+    }
+    10%,
+    30%,
+    50%,
+    70% {
+        -webkit-transform: translate3d(-10px, 0, 0);
+        transform: translate3d(-10px, 0, 0);
+    }
+    20%,
+    40%,
+    60% {
+        -webkit-transform: translate3d(10px, 0, 0);
+        transform: translate3d(10px, 0, 0);
+    }
+}
+#__MY_SHOP_KIT_BADGE__ .flip {
+    -webkit-animation: flip 1.5s linear infinite;
+    animation: flip 1.5s linear infinite;
+}
+@-webkit-keyframes flip {
+    80%,
+    to {
+        -webkit-transform: rotateY(1turn);
+        transform: rotateY(1turn);
+    }
+}
+@keyframes flip {
+    80%,
+    to {
+        -webkit-transform: rotateY(1turn);
+        transform: rotateY(1turn);
+    }
+}

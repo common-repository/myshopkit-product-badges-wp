@@ -1,0 +1,11 @@
+body [class*=badge], body[class*=Badge] {
+    visibility: visible !important;
+}
+.elementor img.wp-post-image {
+    width: 100% !important;
+}
+
+.product .woocommerce-product-gallery__trigger {
+    top: 3rem;
+    right: 1rem;
+}

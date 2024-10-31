@@ -1,0 +1,17 @@
+#badges-iframe {
+    padding-top: 20px;
+    width: 1500px;
+    min-height: 800px;
+}
+
+#mysmbwp-converter-warning{
+    font-weight: bolder;
+    color: red;
+    font-size: 20px;
+    padding: 20px;
+}
+
+#btn-Revoke-Purchase-Code-MBWP {
+    margin-top: 20px;
+    background-color: red;
+}
